@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include medium_app *.css
+recursive-include medium_app *.csv
+recursive-include medium_app *.html
+recursive-include medium_app *.ico
+recursive-include medium_app *.js
+recursive-include medium_app *.json
+recursive-include medium_app *.md
+recursive-include medium_app *.png
+recursive-include medium_app *.py
+recursive-include medium_app *.svg
+recursive-include medium_app *.txt
+recursive-exclude medium_app *.pyc
